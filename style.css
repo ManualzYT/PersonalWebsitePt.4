@@ -14,6 +14,26 @@ height: 150px;
 width 150px;
 }
 
+.line {
+height: 6px;
+background-color: #000;
+width: 70px;
+margin: 8px auto;
+}
 
+html {
+scroll-behavior: smooth;
+}
 
+img {
+transition: transform .2s;
+border: 5px solid;
+}
 
+img:hover{
+transform: scale(0.9);
+}
+
+h7{
+font-size: 35;
+}
